@@ -1,0 +1,47 @@
+section {
+  height: 100vh
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  background: #fff;
+  color: #222;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+mark {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #0000 67%,#0001 67%);
+}
+
+.orange {
+  color: orange;
+}
+
+.btc {
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+}
+
+.home {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  background: #fff;
+  color: #222;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-width: 300px;
+  min-height: 100vh;
+  background: #fff;
+  color: #222;
+  font-size: 1rem;
+}
+
+.home-content {
+  margin: 10vh auto;
+  padding: 1rem;
+}
