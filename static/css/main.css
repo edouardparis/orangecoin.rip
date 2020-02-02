@@ -3,7 +3,7 @@ section {
   font-family: Roboto,Helvetica,Arial,sans-serif;
   background: #fff;
   color: #222;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 h1 {
@@ -44,4 +44,23 @@ ul {
 .home-content {
   margin: 10vh auto;
   padding: 1rem;
+}
+
+.conf-list {
+  display: flex;
+}
+
+.conf-list ul {
+  margin: 0px;
+}
+
+.information {
+  border: 2px solid orange;
+  display: flex;
+}
+
+.date {
+  border-right: 2px solid orange;
+  max-width: 25%;
+  text-align: center;
 }
