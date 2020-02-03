@@ -15,6 +15,12 @@ mark {
   background-image: linear-gradient(to bottom, #0000 67%,#0001 67%);
 }
 
+.twitter {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #0000 67%,#0001 67%);
+  text-decoration: none;
+}
+
 .orange {
   color: orange;
 }
@@ -116,6 +122,18 @@ ul {
 .jumbotron {
   background-color: #E5E5E5;
   padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid orange;
+}
+
+.copyright {
+  margin-top: 2rem;
+  text-align: center;
+  color: #808080
 }
 
 
