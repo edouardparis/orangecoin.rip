@@ -21,10 +21,13 @@ mark {
 
 .btc {
   font-weight: 800;
+  color: orange;
+  transform: rotate(-30deg);
 }
 
 ul {
   list-style: none;
+  padding: 0 20px 0 0;
 }
 
 .home {
@@ -57,10 +60,35 @@ ul {
 .information {
   border: 2px solid orange;
   display: flex;
+  color: orange;
+  font-weight: bold;
+}
+
+.location {
+  padding: 1rem;
 }
 
 .date {
   border-right: 2px solid orange;
   max-width: 25%;
   text-align: center;
+  padding: 1rem;
 }
+
+.date span {
+  font-size: 2rem;
+}
+
+
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+  .conf-list {
+    display: block;
+  }
+  .conf-list ul {
+    padding-left: 20px;
+  }
+}
+
