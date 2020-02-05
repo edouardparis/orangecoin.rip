@@ -140,11 +140,20 @@ img {
   color: #808080
 }
 
+.speaker {
+  display: flex;
+  align-items: flex-start;
+}
+
+.speaker-desc strong {
+  display: block;
+}
+
 
 @media (max-width: 640px) {
-	* {
-		box-sizing: border-box;
-	}
+  * {
+    box-sizing: border-box;
+  }
   .conf-list {
     display: block;
   }
