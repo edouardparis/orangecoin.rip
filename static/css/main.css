@@ -129,8 +129,18 @@ ul {
 }
 
 img {
-  max-width: 100%;
   height: auto;
+}
+
+.partner-image {
+  max-width: 40%;
+}
+
+.location-image {
+  max-width: 100%;
+}
+
+.orange-border {
   border: 2px solid orange;
 }
 
